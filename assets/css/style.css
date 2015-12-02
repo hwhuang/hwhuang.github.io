@@ -1,0 +1,272 @@
+/* DOCUMENT SET UP */
+
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 960px;
+	background-color: white;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-family: Lato;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+#topbar-container {
+	background-color: white;
+}
+
+.topbar-container li {
+
+}
+
+#topbar-container{
+    position:relative;
+    right: 3%;
+    text-align:right;
+    width: 100%; 
+}
+
+.topbar-item {
+	float:right;
+	position:relative;
+	list-style:none;
+	padding-left: 10px;
+
+}
+
+.home-pictures{
+	top: 80px;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	position: relative;
+}
+
+.home-picture {
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.home-picture .image {
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	border: solid;
+	border-width:1px;
+}
+
+.name-container {
+	position: relative;
+	left: 30%;
+	bottom: 20%;
+}
+
+.name-container-about {
+	position: relative;
+	left: 5%;
+	top: -1%;
+}
+
+.name-container-contact {
+	position: relative;
+	left: 5%;
+	top: -1%;
+}
+.letter-circle {
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	font-size:25px;
+	color:black;
+	line-height:50px;
+	text-align:center;
+	background:white;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	display: inline-block;
+	padding-left: -200px;
+}
+
+.letter-circle-about {
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	font-size:25px;
+	color:black;
+	line-height:50px;
+	text-align:center;
+	background:white;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	display: inline-block;
+	margin-left: -15px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.my-slider {
+    position: relative;
+    width: 50%;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    left: 33%;
+    top: 30%;
+}
+.my-slider ul {
+    padding: 0px;
+    margin: 0px;
+}
+.my-slider li{
+padding: 0px;
+margin: 0px;
+}
+.my-slider ul li {
+    float:left;
+    padding: 0px;
+    margin: 0px;
+    min-height: 200px;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position-y: -75px;
+}
+
+
+#images {
+    position: relative;
+}
+.text {
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    top: 90%;
+}
+
+.slide0 {
+	left: 6.75%%;
+}
+.slide1 {
+    left: 15%;
+}
+
+.slide2 {
+	left: 23%;
+}
+
+.slide3 {
+	left: 4.5%;
+}
+
+.slide4 {
+	left: 29.5%;
+}
+.hide {
+    display: none;
+}
+
+.form-container {
+	position: relative;
+	width: 100%
+	top: 3%;
+}
+
+.pure-form{
+	position: relative;
+	display: inline-block;
+	left: 36%;
+}
+
+.pure-button {
+	left: 60%;
+}
+
+#first-name {
+	padding: 3px;
+	position: relative;
+	left: 34%;
+	margin-top: 7px;
+	margin-bottom: 15px;
+}
+
+#last-name {
+	padding: 3px;
+	position: relative;
+	left: 34%;
+	margin-bottom: 15px;
+	margin-top: 7px;
+}
+#email {
+	padding: 3px;
+	position: relative;
+	left: 34%;
+	margin-bottom: 15px;
+	margin-top: 7px;
+}
+
+#message {
+	padding: 3px;
+	position: relative;
+	left: 9%;
+	margin-bottom: 15px;
+	margin-top: 7px;
+}
+label[for=email]
+{
+	font-size: 17px;
+	padding: 5px;
+	position: relative;
+	left: 33.25%;
+}
+
+label[for=first-name]
+{
+	font-size: 17px;
+	padding: 5px;
+	position: relative;
+	left: 37%;
+}
+
+label[for=last-name]
+{
+	font-size: 17px;
+	padding: 5px;
+	position: relative;
+	left: 38%;
+}
+
+label[for=message]
+{
+	font-size: 17px;
+	padding: 5px;
+	position: relative;
+	left: 39%;
+}
+label[for=cb]
+{
+	font-size: 17px;
+	padding: 5px;
+	position: relative;
+	left: 0%;
+}
